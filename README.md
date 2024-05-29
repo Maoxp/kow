@@ -12,13 +12,23 @@ VitePress is a Vue-powered static site generator and a spiritual successor to [V
 
 To check out docs, visit [vitepress.dev](https://vitepress.dev).
 
-## Changelog
+## 安装
 
-Detailed changes for each release are documented in the [CHANGELOG](https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md).
+前置准备
 
-## Contribution
+- Node.js 18 及以上版本。
+- 通过命令行界面 (CLI) 访问 VitePress 的终端。
 
-Please make sure to read the [Contributing Guide](https://github.com/vuejs/vitepress/blob/main/.github/contributing.md) before making a pull request.
+安装 VitePress
+`npm add -D vitepress`
+
+安装向导
+
+VitePress 附带一个命令行设置向导，可以帮助你构建一个基本项目。
+`npx vitepress init`
+
+下载已有代码后
+运行: `npm install i`
 
 ## License
 
