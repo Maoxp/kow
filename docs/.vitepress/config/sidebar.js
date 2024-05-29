@@ -70,6 +70,7 @@ function sidebar_backend() {
         { text: "zephir", link: "zephir" },
         { text: "phpConfig", link: "php-config" },
         { text: "其他", link: "other" },
+        { text: "TP验证器", link: "tp-validate" },
         {
           text: "编译",
           collapsed: false,
