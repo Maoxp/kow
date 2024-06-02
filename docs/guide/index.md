@@ -6,7 +6,7 @@
 
 | ![java ](../public/java.svg)                                 | ![php](../public/Hi-PHP.svg)                                 |                ![web](../public/WEB前端.svg)                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | :----------------------------------------------------------: |
-| [**Java**](/backend/java/cover)<br /><small>基础知识、框架总结、日志处理</small> | [**PHP**](/backend/php/cover/#php-cover)<br /><small>学习笔记</small> | [**Web 前端**](/front/cover)<br /><small>H5、css、javascript</small> |
+| [**Java**](/backend/java/cover)<br /><small>基础知识、框架总结、日志处理</small> | [**PHP**](/backend/php/cover)<br /><small>学习笔记</small> | [**Web 前端**](/front/cover)<br /><small>H5、css、javascript</small> |
 | ![DB](../public/mysql.svg)                                   | ![Linux](../public/linux.svg)                                |               ![Devops](../public/devops.svg)                |
 | **数据库与SQL**<br /><small>SQL相关笔记：MySQL、Redis、Pg、Sqlite</small> | **Linux**<br /><small>学习笔记</small>                       | **DevOps**<br /><small>运维-自动化部署、Docker、k8s</small>  |
 | ![Hello](../public/python.svg)                               | ![Hello](../public/C.svg)                                    |             ![系统设计](../public/系统设计.svg)              |
