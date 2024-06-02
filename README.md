@@ -20,14 +20,17 @@ To check out docs, visit [vitepress.dev](https://vitepress.dev).
 - 通过命令行界面 (CLI) 访问 VitePress 的终端。
 
 安装 VitePress
+
 `npm add -D vitepress`
 
 安装向导
 
 VitePress 附带一个命令行设置向导，可以帮助你构建一个基本项目。
+
 `npx vitepress init`
 
 下载已有代码后
+
 运行: `npm install i`
 
 ## License
