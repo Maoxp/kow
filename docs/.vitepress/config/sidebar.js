@@ -33,7 +33,8 @@ function sidebar_posts() {
       text: '清单',
       collapsed: false,
       items: [
-        { text: "MacOS EACCES 权限问题", link: "macOS-permission-denied" },
+        { text: "MacOS EACCES 问题", link: "macOS-permission-denied" },
+        { text: "Prismjs 支持高亮列表", link: "prismjs-hight-light" },
         { text: "Explain分析", link: "explain-analysis" },
         { text: "58的MySQL指南", link: "58-mysql军规" },
       ]
