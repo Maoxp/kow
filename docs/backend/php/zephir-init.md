@@ -10,11 +10,13 @@ zephir init rocket
 
 当前所创建的 `rocket` 目录结构如下：
 
+```bash
 .
 ├── config.json
 ├── ext
 │   └── kernel
 └── rocket
+```
 
 `ext` 目录中包含编译器用来生成扩展所使用的代码。 `config.json` 是配置文件，使用它来改变Zephir和/或扩展本身的行为，`rocket` 是我们写 zephir 代码的工作目录。
 
