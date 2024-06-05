@@ -69,10 +69,20 @@ function sidebar_backend() {
       base: '/backend/php/',
       items: [
         { text: "👀 全文总览", link: "cover" },
-        { text: "zephir", link: "zephir" },
+        
+        
         { text: "phpConfig", link: "php-config" },
         { text: "其他", link: "other" },
         { text: "TP验证器", link: "tp-validate" },
+        {
+          text: "zephir",
+          collapsed: false,
+          base: '/backend/php/zephir-',
+          items: [
+            { text: "安装", link: "install" },
+            { text: "项目构建", link: "init" },
+          ]
+        },
         {
           text: "编译",
           collapsed: false,
