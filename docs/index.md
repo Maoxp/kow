@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "书山有路"
-  text: "勤为径"
-  tagline: 笔记-人生的笔墨, 或重或轻, 皆由心往
+  name: "书山有路勤为径"
+  text: "Take Smart Notes"
+  tagline: 没有写出来的想法💡其实是被浪费的才华
   actions:
     - theme: brand
       text: 入径
@@ -15,12 +15,14 @@ hero:
       link: https://github.com/maoxp
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 构建外脑
+    details: 用笔记系统构建自己的外脑，重新塑造学习输入与输出的关系
+  - title: 笔头比记忆长久
+    details: 笔记比记忆🧠可靠，而且绝不仅是复制粘贴
+  - title: 兴趣是最好的老师
+    details: 研究不是苦修，不必因循计划按部就班，追随兴趣，依从灵感🌟
+  - title: 知识体系化
+    details: 结构化学习方式，从方法到习惯。笔记让知识显性化，✍️写作让知识体系化
 ---
 
 ![Hello](./public/816f4bfb-6d6e-4942-a9d1-e007c0bc0969.svg)
