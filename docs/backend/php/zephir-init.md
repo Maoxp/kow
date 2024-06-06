@@ -20,7 +20,7 @@ zephir init rocket
 
 `ext` 目录中包含编译器用来生成扩展所使用的代码。 `config.json` 是配置文件，使用它来改变Zephir和/或扩展本身的行为，`rocket` 是我们写 zephir 代码的工作目录。
 
-## Start
+## Coding
 
 > zephir是面向对象的扩展开发工具，所以我们要开始开发功能，需要添加类文件到项目中，文件名是已 `.zep` 后缀结尾。
 
@@ -47,7 +47,7 @@ zephir build
 
 最后，必须将扩展添加到 `php.ini` 才能由PHP加载。这是通过添加初始化指令：`extension=rocket.so` 来实现的。
 
-### 测试
+## Test
 
 现在扩展已经安装到当前 `php` 版本下，你可以执行命令检查扩展是否正确加载:
 
@@ -58,7 +58,7 @@ utils
 
 $ php --ri rocket
 
-rocket
+**rocket**
 
 
 rocket => enabled
@@ -67,8 +67,6 @@ Version => 0.0.1
 Build Date => Jun  4 2024 16:27:01
 Powered by Zephir => Version 0.17.0-9f99da6
 ```
-
-
 
  新建 `demo.php` 文件
 
