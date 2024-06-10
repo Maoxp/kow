@@ -117,6 +117,15 @@ function sidebar_front() {
         { text: '选择器', link: 'selector' }
       ]
 
-    }
+    },
+    {
+      text: 'JS',
+      base: '/front/js-',
+      items: [
+        { text: "[字符串]常用方法", link: 'str' }
+      ]
+
+    },
+    
   ];
 }
