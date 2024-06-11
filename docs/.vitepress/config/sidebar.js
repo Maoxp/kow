@@ -114,7 +114,7 @@ function sidebar_front() {
       items: [{ text: "选择器", link: "selector" }],
     },
     {
-      text: "JS",
+      text: "JavaScript",
       base: "/front/js-",
       items: [
         { text: "知识体系", link: "knowledge-system" },
@@ -125,6 +125,7 @@ function sidebar_front() {
         { text: "[数学]常用函数", link: "math" },
         { text: "[事件]常用函数", link: "event" },
         { text: "DOM对象", link: "dom" },
+        { text: "Node笔记", link: "node" },
       ],
     },
   ];
