@@ -122,8 +122,14 @@ function sidebar_front() {
       text: 'JS',
       base: '/front/js-',
       items: [
-        { text: "[字符串]常用方法", link: 'str' },
-        { text: "常用方法", link: 'common-func' }
+        { text: "知识体系", link: 'knowledge-system' },
+        { text: "常用方法", link: 'common-func' },
+        { text: "[字符串]常用函数", link: 'str' },
+        { text: "[数组]常用函数", link: 'str' },
+        { text: "[时间对象]常用函数", link: 'date' },
+        { text: "[数学]常用函数", link: 'math' },
+        { text: "[事件]常用函数", link: 'event' },
+        { text: "DOM对象", link: 'dom' },
       ]
 
     },
