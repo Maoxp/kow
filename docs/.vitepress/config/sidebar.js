@@ -122,7 +122,8 @@ function sidebar_front() {
       text: 'JS',
       base: '/front/js-',
       items: [
-        { text: "[字符串]常用方法", link: 'str' }
+        { text: "[字符串]常用方法", link: 'str' },
+        { text: "常用方法", link: 'common-func' }
       ]
 
     },
