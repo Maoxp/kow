@@ -21,7 +21,9 @@ right，when you program tries to access a file or folder, it needs to have the 
 
 很好，您可以使用命令行更改文件夹或文件的权限。只需键入以下命令：
 
-from `sudo npm install` before to `sudo npm install -g --unsafe-perm=true --allow-root` now.
+before `sudo npm install`
+
+now `sudo npm install -g --unsafe-perm=true --allow-root` .
 
 之后，您将被要求输入密码。输入密码后，您将有权访问该文件夹或文件。
 
@@ -30,11 +32,11 @@ from `sudo npm install` before to `sudo npm install -g --unsafe-perm=true --allo
 **第一种方法**：我们可以通过改变 folder 的权限来解决这个问题。
 `sudo chmod -R 777 /path/to/folder`
 
-**第二种方法**：赋予 /usr/local 目录 $USER 权限
+✅**第二种方法**：赋予 /usr/local 目录 $USER 权限
 
 提示没有写入权限
 > npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules
 
-✅通过修改 /usr/local 下目录的权限：`sudo chown -R $USER /usr/local`   然后输入密码就可以解决问题.
+- [x] 通过修改 /usr/local 下目录的权限：`sudo chown -R $USER /usr/local`   然后输入密码就可以解决问题.
 
 接下来就可以直接进行 npm 全局包安装：例如 `npm install webpack -g`

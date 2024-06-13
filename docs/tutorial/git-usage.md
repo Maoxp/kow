@@ -1,5 +1,9 @@
 # Git 案列分享
 
+ 初始化一个branch的默认名称
+ 
+`git config --global init.defaultBranch <name>`
+
 ## create a new repository on the command line
 
 ### push an new repository
@@ -7,7 +11,7 @@
 ```bash
 echo "# xxxx.github.io" >> README.md
 git init
-git add README.md
+git add -A
 git commit -m "first commit"
 git branch -M master
 git remote add origin git@github.com:<UserName>/<RepositoryName>.git
