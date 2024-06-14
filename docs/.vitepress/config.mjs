@@ -50,7 +50,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/maoxp' }
     ],
 
     // 右边文档大纲下面的-卡片广告

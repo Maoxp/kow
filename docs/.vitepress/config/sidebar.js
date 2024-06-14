@@ -9,7 +9,22 @@ export default {
   "/backend": { base: "/backend/", items: sidebar_backend() },
 
   "/front": { base: "/front/", items: sidebar_front() },
+
+  '/about': { base: "/about/", items: sidebar_about() }
 };
+
+function sidebar_about() {
+  return [
+    { text: "关于作者", link: "me" },
+    {
+      text: '年度规划',
+      collapsed: false,
+      items: [
+        { text: "2024", link: "2024" },
+      ],
+    },
+  ];
+}
 
 function sidebar_guide() {
   return [
@@ -37,6 +52,7 @@ function sidebar_posts() {
         { text: "Prismjs 支持高亮列表", link: "prismjs-hight-light" },
         { text: "Explain分析", link: "explain-analysis" },
         { text: "58的MySQL指南", link: "58-mysql军规" },
+        { text: "CPU飙高处理步骤", link: "cpu-hight" },
       ],
     },
   ];
