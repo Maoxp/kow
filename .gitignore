@@ -8,4 +8,5 @@
 dist
 cache
 node_modules
-TODOs.md
+pnpm-global
+/docs/.vitepress/dist

@@ -10,7 +10,7 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   metaChunk: true,
-  base: '/kow/',
+  base: '/',
   // ignoreDeadLinks: true, // 不会因死链接而使构建失败
   head: [
     [
