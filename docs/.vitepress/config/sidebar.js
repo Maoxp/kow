@@ -53,6 +53,7 @@ function sidebar_posts() {
         { text: "Explain分析", link: "explain-analysis" },
         { text: "58的MySQL指南", link: "58-mysql军规" },
         { text: "CPU飙高处理步骤", link: "cpu-hight" },
+        { text: "Windows多帐户转换", link: "windows-user" },
       ],
     },
   ];
