@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	/* --vp-c-brand: #2f39fc;
+	--vp-c-brand-dark: #2f39fc; */
+}
+.image-src{
+	border-radius: 50%;
+}
