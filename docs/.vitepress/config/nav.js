@@ -17,4 +17,5 @@ export const nav = [
       },
     ],
   },
+  { text: '趣链', link: '/quchain/cover', activeMatch: '/quchain' }
 ];
