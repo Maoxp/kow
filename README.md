@@ -33,6 +33,10 @@ VitePress 附带一个命令行设置向导，可以帮助你构建一个基本�
 
 运行: `npm install i`
 
+## 运行
+
+开发预览命令 `npm run docs:dev`
+
 ## License
 
 [MIT](https://github.com/vuejs/vitepress/blob/main/LICENSE)
