@@ -6,6 +6,7 @@
 
 - [木易成](https://www.muyicheng.cn/) 聊聊软件、聊聊金融、聊聊篮球
 - [hxstrive](https://www.hxstrive.com/subject/mybatis_plus.htm) 关于 mybatis-plus 使用教程
+- [cainiaoplus](https://www.cainiaoplus.com/mybatis/mybatis-one2one.html) 关于 mybatis 使用教程
 - [mybatis-plus 官方](https://baomidou.com/getting-started/) MyBatis 最佳搭档，只做增强不做改变，为简化开发、提高效率而生。
 - [mapstruct 官方](https://mapstruct.org/documentation/1.2/reference/html/) 一款 Java 工具包 `mapper-struct` 的文档
 - [fcant](https://www.yuque.com/fcant) 一个语雀 up 主的 blog，知识点挺多，可以逛逛
