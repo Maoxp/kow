@@ -17,37 +17,52 @@ wget http://nginx.org/download/nginx-1.19.1.tar.gz
 tar xvf nginx-1.19.1.tar.gz
 cd nginx-1.19.1
 
+# 在编译Nginx之前，确保你的系统安装了编译和运行Nginx所需的依赖项。常见的依赖包括：
+
+# gcc：编译器
+# make：构建工具
+# openssl-devel 或 libssl-dev：SSL/TLS 加密库的开发文件
+# pcre-devel 或 libpcre3-dev：Perl Compatible Regular Expressions (PCRE) 库的开发文件
+# zlib-devel 或 zlib1g-dev：压缩库的开发文件
+
+#在大多数基于Debian/Ubuntu的系统上，可以使用以下命令安装依赖：
+sudo apt update
+sudo apt install build-essential libpcre3-dev zlib1g-dev libssl-dev
+
+# 在基于Red Hat/CentOS的系统上，可以使用以下命令安装依赖：
+sudo yum install pcre-devel zlib-devel openssl-devel
+
 echo "+---------------+"
 echo "+ configure +"
 echo "+---------------+"
 groupadd mxp
 useradd mxp -g mxp -s /sbin/nologin
-./configure  --prefix=/usr/local/nginx  --user=www-data --group=www-data --with-http_ssl_module --with-http_stub_status_module --with-http_gzip_static_module --with-http_sub_module --with-http_realip_module --with-pcre --with-debug
+# ./configure  --prefix=/usr/local/nginx  --user=www-data --group=www-data
 # --add-module=
 
 
-#./configure --prefix=/usr/local/nginx 
-#--with-http_stub_status_module 
-#--with-http_sub_module 
-#--with-http_ssl_module 
-#--with-stream 
-#--with-http_realip_module 
-#--with-http_addition_module 
-#--with-http_dav_module 
-#--with-http_flv_module 
-#--with-http_mp4_module 
-#--with-http_gunzip_module 
-#--with-http_gzip_static_module 
-#--with-http_random_index_module 
-#--with-http_secure_link_module 
-#--with-http_auth_request_module 
-#--with-mail 
-#--with-mail_ssl_module 
-#--with-file-aio 
-#--with-pcre 
-#--with-http_gzip_static_module 
-#--with-pcre-jit 
-#--with-openssl=****
+./configure --prefix=/usr/local/nginx 
+--with-http_stub_status_module 
+--with-http_sub_module 
+--with-http_ssl_module 
+--with-stream 
+--with-http_realip_module 
+--with-http_addition_module 
+--with-http_dav_module 
+--with-http_flv_module 
+--with-http_mp4_module 
+--with-http_gunzip_module 
+--with-http_gzip_static_module 
+--with-http_random_index_module 
+--with-http_secure_link_module 
+--with-http_auth_request_module 
+--with-mail 
+--with-mail_ssl_module 
+--with-file-aio 
+--with-pcre 
+--with-http_gzip_static_module 
+--with-pcre-jit 
+# --with-openssl
 
 make && make install
 
