@@ -102,3 +102,5 @@ systemctl reload nginx
 
 ```
 
+解决阿里云 DNS 不能自动为通配符证书续期的问题:
+[certbot-dns-aliyun](https://github.com/justjavac/certbot-dns-aliyun)
