@@ -72,7 +72,7 @@ sudo certbot  \
 /etc/letsencrypt/live/example.com/fullchain.pem
 /etc/letsencrypt/live/example.com/privkey.pem
 
-![安装完成后](./public/certbot-nginx.png)
+![安装完成后](../public/certbot-nginx.png)
 
 最后重启 `nginx` 服务。
 
