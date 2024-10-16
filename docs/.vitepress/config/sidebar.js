@@ -75,6 +75,7 @@ function sidebar_tutorial() {
     { text: "upgrade-curl", link: "upgrade-curl" },
     { text: "vim-operation", link: "vim-operation" },
     { text: "Nginx配置", link: "nginx-config" },
+    { text: "Certbot 自动申请域名证书", link: "nginx-certbot" },
   ];
 }
 
